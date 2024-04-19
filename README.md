@@ -2,8 +2,7 @@
 
 ## Overview
 
-This project demonstrates how to set up a Docker VPN using OpenVPN and Flask. It allows users to connect to a VPN server through a web interface and browse the internet anonymously.
-
+This project is a comprehensive guide and implementation for setting up a Docker-based Virtual Private Network (VPN) using OpenVPN and Flask, enabling users to connect to a VPN server through a user-friendly web interface and browse the internet anonymously. It leverages OpenVPN for secure communication, Flask for web interface development, and Docker for streamlined deployment and management. Users can clone the repository, set up dependencies including Docker and Python 3.x, start the Flask server to access the VPN interface, enter the VPN server's IP address and port, establish a connection, and then browse the web anonymously through the VPN, enhancing their online privacy and security significantly.
 ## Prerequisites
 
 Before running this project, make sure you have the following installed:
