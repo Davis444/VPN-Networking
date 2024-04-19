@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connected</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .search-form {
+            display: inline-block;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .search-input {
+            width: 300px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .search-button {
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .search-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Connected Page</h1>
+    <form class="search-form" method="POST" action="/redirect">
+        <input class="search-input" type="text" name="url" placeholder="Enter URL to search">
+        <button class="search-button" type="submit">Search</button>
+    </form>
+    <p>Note: This search will be done through the Docker VPN for anonymity.</p>
+</body>
+</html>
