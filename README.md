@@ -19,29 +19,28 @@ Before running this project, make sure you have the following installed:
    git clone https://github.com/your-username/docker-vpn-flask.git
 # Navigate to the project directory:
 ## bash
-### cd docker-vpn-flask
+cd docker-vpn-flask
 # Set up a virtual environment (optional but recommended):
 ## bash
-### python3 -m venv venv
-### source venv/bin/activate  # On Windows, use venv\Scripts\activate
+python3 -m venv venv
+source venv/bin/activate  # On Windows, use venv\Scripts\activate
 # Install the required Python packages:
 ## bash
-### pip install -r requirements.txt
+pip install -r requirements.txt
 # Start the Flask server:
-## bash
-### python main.py
-# Open your web browser and go to http://127.0.0.1:5000/ to access the VPN interface.
+bash
+python main.py
+Open your web browser and go to http://127.0.0.1:5000/ to access the VPN interface.
 # Usage
-### Enter the IP address and port of the VPN server in the form on the homepage and click "Connect" to start the VPN container.
-### Once connected, navigate to http://127.0.0.1:5000/connected to access the connected interface.
-### Use the search bar to enter a URL and browse the web anonymously through the VPN.
+Enter the IP address and port of the VPN server in the form on the homepage and click "Connect" to start the VPN container.
+Once connected, navigate to http://127.0.0.1:5000/connected to access the connected interface.
+Use the search bar to enter a URL and browse the web anonymously through the VPN.
 # Contributing
-### Contributions are welcome! Please fork this repository and create a pull request with your changes.
+Contributions are welcome! Please fork this repository and create a pull request with your changes.
 
 # License
-### This project is licensed under the MIT License.
-
+This project is licensed under the MIT License.
 # Acknowledgements
-### Flask - Web framework for Python
-### Docker - Containerization platform
-### OpenVPN - VPN software
+Flask - Web framework for Python
+Docker - Containerization platform
+OpenVPN - VPN software
