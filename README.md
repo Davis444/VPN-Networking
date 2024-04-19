@@ -17,18 +17,18 @@ Before running this project, make sure you have the following installed:
    ```bash
    git clone https://github.com/your-username/docker-vpn-flask.git
 # Navigate to the project directory:
-## bash
-cd docker-vpn-flask
+    ``` bash
+      cd docker-vpn-flask
 # Set up a virtual environment (optional but recommended):
-## bash
-python3 -m venv venv
+    ``` bash
+      python3 -m venv venv
 source venv/bin/activate  # On Windows, use venv\Scripts\activate
 # Install the required Python packages:
-## bash
-pip install -r requirements.txt
+    ``` bash
+      pip install -r requirements.txt
 # Start the Flask server:
-bash
-python main.py
+    ``` bash
+      python main.py
 Open your web browser and go to http://127.0.0.1:5000/ to access the VPN interface.
 # Usage
 Enter the IP address and port of the VPN server in the form on the homepage and click "Connect" to start the VPN container.
